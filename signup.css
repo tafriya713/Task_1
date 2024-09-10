@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    background: linear-gradient( #bbb5bb, #b7d7e2);  
+     
+}
+.signup-container {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(128, 0, 128, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-form {
+  width: 30%;
+  height: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px gray;
+  background: linear-gradient( #bbb5bb, #b7d7e2);
+  padding: 20px;
+}
+.input-field {
+  padding: 8px;
+  width: 250px;
+}
+.input-field input {
+  padding: 10px;
+  width: 210px;
+  margin-left: 8px;
+}
+.singingup-policy p {
+  font-size: 14px;
+  color: azure;
+  opacity: 0.9;
+  padding-left:25px;
+}
+.singingup-policy p span{
+    color:beige;
+    font-size:14px;
+}
+.singingup-policy a{
+    text-decoration:none;
+    color:rgb(140, 215, 190) ;   
+}
+.signup-button button{
+   width:250px; 
+   padding:10px;
+   
+   border-radius:5px;
+   border:none;
+   background-color: rgb(220, 214, 220);
+   color:rgb(34, 41, 41) ;
+   font-size:16px;
+   margin-top:15px;
+   cursor:pointer;
+   font-family:arial;
+
+     
+}
+.account{
+    width: 30%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px gray;
+  background: linear-gradient( #bbb5bb, #b7d7e2);
+  padding: 20px; 
+  margin-top:20px;
+}
+.account h5{
+    font-size:18px;
+    font-weight:100px;
+    
+}
+.account a{
+    text-decoration:none;
+    font-size:17px;
+    color: rgb(128, 64, 155);
+    font-weight:bold;
+}
+

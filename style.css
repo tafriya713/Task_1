@@ -18,16 +18,16 @@ html {
   top: 0;
   z-index: 2;
 }
-.navbar  a {
+.navbar a {
   padding: 0px 15px 0px 15px;
   font-size: 18px;
   font-family: arial;
   color: white;
-  transition:0.4s;
-  text-decoration:none;
+  transition: 0.4s;
+  text-decoration: none;
 }
-.navbar  a:hover{
-    color:gray;
+.navbar a:hover {
+  color: gray;
 }
 .navbar ul li {
   list-style: none;
@@ -51,89 +51,86 @@ html {
 .image-container {
   width: 100%;
   height: 710px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("web.jpg") no-repeat center/cover;
 }
-.login-container{
-    width:100%;
-    height:700px;
-    background:linear-gradient( rgba(0, 0, 0, 0.3),
-    rgba(128, 0, 128, 0.5), 
-    rgba(255, 255, 255, 0.3) );
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    
+.login-container {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(128, 0, 128, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.login-page{
-    width:35%;
-    height:55%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:white;
-    padding:20px;
-    box-shadow: 0px 0px 10px  gray;
-    background: radial-gradient(circle,  #605c60, #add8e6); 
+.login-page {
+  width: 35%;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+  background: radial-gradient(circle, #605c60, #add8e6);
 }
-.login-page h2{
-    margin-bottom:30px;
-    font-family:arial;
-    font-size:35px;
-    background: linear-gradient(to right, #dcdcdc, #dcdcdc); 
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
+.login-page h2 {
+  margin-bottom: 30px;
+  font-family: arial;
+  font-size: 32px;
+  background: linear-gradient(to right, #dcdcdc, #dcdcdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.log{
-    padding:10px 30px 10px 30px;
+.log {
+  padding: 10px 30px 10px 30px;
 }
-.login-button{
-    width:230px;
-    height:40px;
-    border-radius:5px;
-    color:whitesmoke;
-    background:linear-gradient(to right,lightblue,rgb(69, 69, 195));
-    color:white;
-    font-size:20px;
-    font-weight:700;
-    font-family:arial;
-    border:0px solid;
-    
+.login-button {
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  color: whitesmoke;
+  background: linear-gradient(to right, lightblue, rgb(69, 69, 195));
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: arial;
+  border: 0px solid;
 }
-.login-page p{
-    font-size:18px;
-    margin-top:15px;
-    margin-left:140px;
-    background: linear-gradient(to right, #dcdcdc, #dcdcdc); 
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    font-weight:bold;
+.login-page p {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 140px;
+  background: linear-gradient(to right, #dcdcdc, #dcdcdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
-.have-account{
-    
-    width:35%;
-    height:12%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:white;
-    padding:20px;
-    box-shadow: 0px 0px 10px  gray;
-    background: radial-gradient( circle,  #605c60, #add8e6); 
-    margin-top:20px;
+.have-account {
+  width: 35%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+  background: radial-gradient(circle, #605c60, #add8e6);
+  margin-top: 20px;
 }
-.have-account p{
-    font-size:18px;
-    font-family:arial;
-    color:white;
-
+.have-account p {
+  font-size: 18px;
+  font-family: arial;
+  color: white;
 }
-.have-account a{
-    text-decoration:none;
-    font-size:22px;
-    margin-left:8px;
-    color:darkblue;
-    font-weight:650;
+.have-account a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 8px;
+  color: darkblue;
+  font-weight: 650;
 }
-
